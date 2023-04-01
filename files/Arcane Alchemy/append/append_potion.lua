@@ -1,7 +1,4 @@
-table.insert(materials_standard, {
-	material="hydroxide",
-	cost=250,
-});
+
 
 table.insert(materials_magic, {
     material="AA_MAT_DARKMATTER",
@@ -76,105 +73,6 @@ table.insert(materials_magic, {
 table.insert(materials_magic, {
     material="AA_MAT_STATIC_CHARGE",
     cost=300,
-});
-
---if(ModSettingGet(omega_glue) == "on") then
---	table.insert(materials_magic, {
---		material="AA_GLUE",
---		cost=500,
---		percentage=0.5
---});
-
---end --omega glue
-
-table.insert(materials_magic, {
-    material="sliceLiquid",
-	cost=750,
-});
-
-table.insert(materials_magic, {
-    material="sparkLiquid",
-	cost=750,
-});
-
-table.insert(materials_magic, {
-    material="glitteringLiquid",
-	cost=750,
-});
-
-table.insert(materials_magic, {
-    material="twitchyJuice",
-	cost=500,
-});
-
-table.insert(materials_magic, {
-    material="magic_liquid_movement_slower",
-	cost=200,
-});
-
-table.insert(materials_magic, {
-    material="magic_liquid_slower_levitation",
-	cost=200,
-});
-
-table.insert(materials_magic, {
-    material="magic_liquid_slower_levitation_and_movement",
-	cost=250,
-});
-
-table.insert(materials_magic, {
-    material="metamorphine",
-	cost=700,
-});
-
-table.insert(materials_magic, {
-    material="unstableMetamorphine",
-	cost=900,
-}); 
-
-table.insert(materials_magic, {
-    material="explodePlayer",
-	cost=350,
-});
-
-table.insert(materials_magic, {
-    material="liquid_projectile_trail",
-	cost=600,
-});
-
-table.insert(materials_magic, {
-	material="antimagic",
-	cost=1000,
-});
-
-table.insert(materials_standard, {
-	material="grease",
-	cost=100,
-});
-
-table.insert(materials_magic, {
-	material="antimatter_gas",
-	cost=950,
-});
-
-table.insert(materials_magic, {
-	material="antimatter_liquid",
-	cost=1000,
-});
-
-table.insert(materials_standard, {
-	material="cobalt_ingredient",
-	cost=120,
-});
-
-table.insert(materials_standard, {
-	material="iron_ingredient",
-	cost=120,
-});
-
-table.insert(materials_magic, {
-	material="ferrineSkin",
-	cost=350,
 });
 
 local old_init = init
