@@ -1854,26 +1854,26 @@
 	--veilium reactions--
 	---------------------
 	<Reaction probability="8"
-	input_cell1="potionBlindness"	input_cell2="alcohol"
-	output_cell1="potionBlindness"	output_cell2="potionBlindness"
+	input_cell1="CC_potionBlindness"	input_cell2="alcohol"
+	output_cell1="CC_potionBlindness"	output_cell2="CC_potionBlindness"
 	>
 	</Reaction>
 	
 	<Reaction probability="24"		
 	input_cell1="alcohol"			input_cell2="[fungus]"
-	output_cell1="potionBlindness"		output_cell2="alcohol_gas"
+	output_cell1="CC_potionBlindness"		output_cell2="alcohol_gas"
 	blob_radius2="3"
 	>
 	</Reaction>
 	
  	<Reaction probability="60"
-	input_cell1="potionBlindness" 	input_cell2="[fire]"
+	input_cell1="CC_potionBlindness" 	input_cell2="[fire]"
 	output_cell1="[fire]"			output_cell2="methane"
 	>
 	</Reaction> --burning
 
 	<Reaction probability="60"
-	input_cell1="potionBlindness" 		input_cell2="[lava]"
+	input_cell1="CC_potionBlindness" 		input_cell2="[lava]"
 	output_cell1="[fire]"		output_cell2="methane">
 	</Reaction> --burning
 

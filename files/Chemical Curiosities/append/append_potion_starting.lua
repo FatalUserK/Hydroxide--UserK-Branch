@@ -37,7 +37,7 @@ magicpotions = {
 "magic_liquid_movement_faster",
 "magic_liquid_movement_slower",
 "magic_liquid_slower_levitation",
-"potionBlindness",
+"CC_potionBlindness",
 "explodePlayer",
 }
 

@@ -61,11 +61,11 @@ table.insert(materials_from, {
 	});
 table.insert(materials_to, {
 		probability = 0.8,
-		material = "potionBlindness",
+		material = "CC_potionBlindness",
 	});
 table.insert(materials_from, {
 		probability = 0.6,
-		materials = { "potionBlindness", "magic_liquid_invisibility"},
+		materials = { "CC_potionBlindness", "magic_liquid_invisibility"},
 	});
 table.insert(materials_from, {
 		probability = 0.9,

@@ -15,7 +15,7 @@
 		liquid_stains="1"
         >
 	<Graphics
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/hydroxide.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/hydroxide.png"
 	>
 	</Graphics>
         <StatusEffects>
@@ -78,7 +78,7 @@
 	show_in_creative_mode="1"
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/devouringMoss.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/devouringMoss.png"
 	>
 	</Graphics>
   </CellData> -- spreads over rock and ground aggressively. Very fun!
@@ -110,7 +110,7 @@
  </CellData> -- basically acid's flammable gas, but blue
 
  <CellData
-	name="potionBlindness"
+	name="CC_potionBlindness"
 	ui_name="Veilium"
 	tags="[liquid],[water],[magic_liquid],[impure],[corrodible]"
 	density="4.21"
@@ -138,7 +138,7 @@
 	
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/veilium.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/veilium.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -176,7 +176,7 @@
 	audio_materialaudio_type="MAGICAL" 
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/sparklingLiquid.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/sparklingLiquid.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -215,7 +215,7 @@
 	audio_materialaudio_type="MAGICAL" 
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/slicingLiquid.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/slicingLiquid.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -249,7 +249,7 @@
 	audio_materialaudio_type="MAGICAL" 
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/glitteringLiquid.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/glitteringLiquid.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -289,7 +289,7 @@
 	autoignition_temperature="10"
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/blast_powder.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/blast_powder.png"
 	>
 	</Graphics>
 	<ParticleEffect

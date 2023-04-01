@@ -289,9 +289,9 @@
 	
 <MagicConvertMaterialComponent
       kill_when_finished="0"
-      from_material="potionBlindness"
+      from_material="CC_potionBlindness"
       steps_per_frame="48"
-      to_material="potionBlindness"
+      to_material="CC_potionBlindness"
       clean_stains="0"
       is_circle="1"
       radius="22" 

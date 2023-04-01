@@ -1,4 +1,4 @@
-if ModSettingGet("Hydroxide.cc_pixelscenes") == "on" then
+btw if ModSettingGet("Hydroxide.cc_pixelscenes") == "on" then
 table.insert(g_pixel_scene_01, {
 	prob			= 0.9,
 	material_file	= "mods/Hydroxide/files/pixel_scenes/coalmine/shrinekindling.png",
@@ -41,7 +41,7 @@ table.insert(g_oiltank, {
 		visual_file		= "data/biome_impl/coalmine/oiltank_1_visual.png",
 		background_file	= "",
 		is_unique		= 0,
-		color_material = { ["fff0bbee"] = { "potionBlindness", "fireStarter", "solidCrystal_molten", "magic_liquid_slower_levitation", "sulphur", "squirrellymorphine" } }
+		color_material = { ["fff0bbee"] = { "CC_potionBlindness", "fireStarter", "solidCrystal_molten", "magic_liquid_slower_levitation", "sulphur", "squirrellymorphine" } }
 }); --magic materials
 
 table.insert(g_oiltank, {
