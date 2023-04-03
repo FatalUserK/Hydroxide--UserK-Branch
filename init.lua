@@ -40,7 +40,7 @@ function OnMagicNumbersAndWorldSeedInitialized() -- this is the last point where
 	if ModSettingGet("Hydroxide.cc_ores") == "on" then 
 	
 		if GameHasFlagRun("Squirrelly_Ore_generated") == false then
-			dofile_once("mods/Hydroxide/files/scripts/oreGen/inject_ores.lua")
+			--dofile_once("mods/Hydroxide/files/scripts/oreGen/inject_ores.lua")
 			print("Chemical Curiosities oreGen complete")
 			GameAddFlagRun("Squirrelly_Ore_generated")
 		end
@@ -49,8 +49,8 @@ function OnMagicNumbersAndWorldSeedInitialized() -- this is the last point where
 end
 
 
-ModMaterialsFileAdd( "mods/Hydroxide/files/materials.xml" ) 
-ModMaterialsFileAdd( "mods/Hydroxide/files/reactions.xml" ) 
+ModMaterialsFileAdd( "mods/Hydroxide/files/Chemical Curiosities/CC_materials.xml" ) 
+ModMaterialsFileAdd( "mods/Hydroxide/files/Chemical Curiosities/CC_reactions.xml" ) 
 -- Adds all new materials and reactions. 
 -- This line is arguably the single most important line of code in the mod
 
@@ -114,7 +114,7 @@ register_translation("item_vial_with_material_description", "A glass vial contai
 
 -- This code runs when all mods' filesystems are registered
 if ModSettingGet("Hydroxide.cc_spells") == "on" then 
-	ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/Hydroxide/files/actions.lua" ) -- adds spells, really just sea of methane
+	--ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/Hydroxide/files/actions.lua" ) -- adds spells, really just sea of methane
 end
 
 
@@ -127,14 +127,14 @@ ModMagicNumbersFileAdd( "mods/Hydroxide/files/magic_numbers.xml" ) -- Will overr
 ModLuaFileAppend( "data/scripts/status_effects/status_list.lua", "mods/Hydroxide/files/scripts/append/append_status_list.lua" ) --new status effects
 
 if ModSettingGet("Hydroxide.cc_flasks") == "on" then
-	ModLuaFileAppend( "data/scripts/items/potion.lua", "mods/Hydroxide/files/scripts/append/append_potion.lua" ) -- potions with new materials
-	ModLuaFileAppend( "data/scripts/items/powder_stash.lua", "mods/Hydroxide/files/scripts/append/append_powders.lua" ) -- powder bags spawn with new materials
-	ModLuaFileAppend( "data/scripts/items/potion_aggressive.lua", "mods/Hydroxide/files/scripts/append/append_potion_aggressive.lua" ) --for alchemist enemy
-	ModLuaFileAppend("data/scripts/items/potion_starting.lua", "mods/Hydroxide/files/scripts/append/append_potion_starting.lua")
+	--ModLuaFileAppend( "data/scripts/items/potion.lua", "mods/Hydroxide/files/scripts/append/append_potion.lua" ) -- potions with new materials
+	--ModLuaFileAppend( "data/scripts/items/powder_stash.lua", "mods/Hydroxide/files/scripts/append/append_powders.lua" ) -- powder bags spawn with new materials
+	--ModLuaFileAppend( "data/scripts/items/potion_aggressive.lua", "mods/Hydroxide/files/scripts/append/append_potion_aggressive.lua" ) --for alchemist enemy
+	--ModLuaFileAppend("data/scripts/items/potion_starting.lua", "mods/Hydroxide/files/scripts/append/append_potion_starting.lua")
 end
 
 
-
+--[[
 ModLuaFileAppend( "data/scripts/gun/gun_extra_modifiers.lua", "mods/Hydroxide/files/scripts/append/append_gun_extra_modifiers.lua" ) --extra modifiers?
 
 ModLuaFileAppend( "data/scripts/biomes/coalmine.lua", "mods/Hydroxide/files/scripts/append/pixel_scenes/append_coalmine.lua" ) --new structures in the mines
@@ -144,9 +144,9 @@ ModLuaFileAppend( "data/scripts/biomes/liquidcave.lua", "mods/Hydroxide/files/sc
 ModLuaFileAppend( "data/scripts/biomes/snowcastle.lua", "mods/Hydroxide/files/scripts/append/pixel_scenes/append_snowcastle.lua" ) --new structures in hiisi base
 ModLuaFileAppend( "data/scripts/biomes/snowcave.lua", "mods/Hydroxide/files/scripts/append/pixel_scenes/append_snowcave.lua" ) --new structures in hiisi base
 ModLuaFileAppend( "data/scripts/biomes/vault.lua", "mods/Hydroxide/files/scripts/append/pixel_scenes/append_vault.lua" ) --new structures in the vault
-
+]]--
 if ModSettingGet("Hydroxide.cc_items") == "on" then
-	ModLuaFileAppend( "data/scripts/item_spawnlists.lua", "mods/Hydroxide/files/scripts/append/append_items.lua" ) --adds items to pedestals
+	--ModLuaFileAppend( "data/scripts/item_spawnlists.lua", "mods/Hydroxide/files/scripts/append/append_items.lua" ) --adds items to pedestals
 end
 
 ModLuaFileAppend( "data/scripts/magic/fungal_shift.lua", "mods/Hydroxide/files/scripts/append/append_fungal.lua" ) --FUngal shifts

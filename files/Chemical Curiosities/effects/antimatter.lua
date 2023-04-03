@@ -12,5 +12,5 @@ max_hp = ComponentGetValue2( damagemodel, "max_hp" )
 
 EntityInflictDamage( root, max_hp / 33 , "DAMAGE_SLICE", "Annihilation", "PLAYER_RAGDOLL_CAMERA", 0, 0)
 
-child_id = EntityLoad( "mods/Hydroxide/files/entities/misc/flash_bright.xml", x, y )
+child_id = EntityLoad( "mods/Hydroxide/files/entities/misc/antimatter_flash.xml", x, y )
 EntityAddChild( root, child_id )
