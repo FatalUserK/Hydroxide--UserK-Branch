@@ -51,8 +51,25 @@ end
 
 ModMaterialsFileAdd( "mods/Hydroxide/files/Chemical Curiosities/CC_materials.xml" ) 
 ModMaterialsFileAdd( "mods/Hydroxide/files/Chemical Curiosities/CC_reactions.xml" ) 
+ModLuaFileAppend( "data/scripts/status_effects/status_list.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_effects.lua" )
+
+ModMaterialsFileAdd( "mods/Hydroxide/files/Arcane Alchemy/AA_materials.xml" ) 
+ModMaterialsFileAdd( "mods/Hydroxide/files/Arcane Alchemy/AA_reactions.xml" ) 
+ModLuaFileAppend( "data/scripts/status_effects/status_list.lua", "mods/Hydroxide/files/Arcane Alchemy/AA_effects.lua" )
 -- Adds all new materials and reactions. 
 -- This line is arguably the single most important line of code in the mod
+
+
+if ModIsEnabled("raksa") then
+	ModLuaFileAppend(
+	  "mods/raksa/files/scripts/lists/material_categories.lua",
+	  "mods/Hydroxide/files/Compelling Compatibility!/Conjurer/CC_MATERIALS.lua"
+	)
+  end --adds compatibility with Conjurer
+
+
+
+
 
 
 
@@ -123,8 +140,7 @@ ModMagicNumbersFileAdd( "mods/Hydroxide/files/magic_numbers.xml" ) -- Will overr
 
 
 --ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/Hydroxide/files/scripts/append/append_actions.lua") -- new spells ( deprecated )
- 
-ModLuaFileAppend( "data/scripts/status_effects/status_list.lua", "mods/Hydroxide/files/scripts/append/append_status_list.lua" ) --new status effects
+  --new status effects
 
 if ModSettingGet("Hydroxide.cc_flasks") == "on" then
 	--ModLuaFileAppend( "data/scripts/items/potion.lua", "mods/Hydroxide/files/scripts/append/append_potion.lua" ) -- potions with new materials

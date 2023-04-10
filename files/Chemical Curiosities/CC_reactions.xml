@@ -325,7 +325,7 @@
 	<Reaction probability="5"
 	input_cell1="crystal_box2d"		input_cell2="air"
 	output_cell1="crystal_box2d"	output_cell2="air"
-	entity="mods/Hydroxide/files/entities/misc/crystalExplode.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/Crystal/crystalExplode.xml"
 	>
 	</Reaction>
 	
@@ -333,7 +333,7 @@
 	<Reaction probability="60"
 	input_cell1="solidCrystal"		input_cell2="[fire]"
 	output_cell1="air"				output_cell2="[fire]"
-	entity="mods/Hydroxide/files/entities/misc/crystalExplode.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/Crystal/crystalExplode.xml"
 	entity="data/entities/particles/particle_explosion/main_swirly_pink.xml" 
 	>
 	</Reaction>
@@ -341,7 +341,7 @@
 	<Reaction probability="20"
 	input_cell1="solidCrystal"		input_cell2="smoke"
 	output_cell1="air"				output_cell2="smoke"
-	entity="mods/Hydroxide/files/entities/misc/crystalExplode.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/Crystal/crystalExplode.xml"
 	entity="data/entities/particles/particle_explosion/main_swirly_pink.xml" 
 	>
 	</Reaction>
@@ -397,21 +397,21 @@
 	<Reaction probability="100"
 	input_cell3="water" 	input_cell2="air" 	input_cell1="metal_wire_nohit"
 	output_cell3="water"	output_cell2="air"	output_cell1="metal_wire_nohit"
-	entity="mods/Hydroxide/files/entities/misc/sparkSmall.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/hiisi_wire/wireSpark.xml"
 	>
 	</Reaction>
 	
 	<Reaction probability="0.4"
 	input_cell1="metal_wire_nohit"		input_cell2="air"
 	output_cell1="metal_wire_nohit"		output_cell2="air"
-	entity="mods/Hydroxide/files/entities/misc/sparkSmall.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/hiisi_wire/wireSpark.xml"
 	>
 	</Reaction>
 	
 	<Reaction probability="100"
 	input_cell1="metal_wire_nohit" 	input_cell2="steel_static"
 	output_cell1="metal_wire_nohit"	output_cell2="steel_static"
-	entity="mods/Hydroxide/files/entities/misc/sparkSmall.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/hiisi_wire/wireSpark.xml"
 	>
 	</Reaction>
 
@@ -452,7 +452,7 @@
 	<Reaction probability="2"
 	input_cell1="wand_tinker"	input_cell2="air"
 	output_cell1="air"		output_cell2="air"
-	entity="mods/Hydroxide/files/entities/misc/evaporate_tinker.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/tinkerDust/evaporate_tinker.xml"
 	>
 	</Reaction>
 	
@@ -472,7 +472,7 @@
 		cell_explosion_radius_min="15"
 		cell_explosion_radius_max="15"
 		cell_explosion_probability="1.1"
-		load_this_entity="mods/Hydroxide/files/entities/misc/sparkStarter.xml"
+		load_this_entity="mods/Hydroxide/files/Chemical Curiosities/materials/magic_liquid_antimagic/sparkStarter.xml"
 		ray_energy="50000"
 		>
 	</ExplosionConfig>
@@ -624,7 +624,7 @@
 	<Reaction probability="100"
 	input_cell1="metamorphine"		input_cell2="[liquid]"
 	output_cell1="air"				output_cell2="[liquid]"
-	entity="mods/Hydroxide/files/entities/misc/metamorphine.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/metamorphine/metamorphine.xml"
 	blob_radius1="4"
 	>
 	</Reaction>
@@ -632,7 +632,7 @@
 	<Reaction probability="100"
 	input_cell1="unstableMetamorphine"	input_cell2="[liquid]"
 	output_cell1="air"					output_cell2="[liquid]"
-	entity="mods/Hydroxide/files/entities/misc/unstableMetamorphine.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/metamorphine/unstableMetamorphine.xml"
 	blob_radius1="4"
 	>
 	</Reaction>
@@ -803,7 +803,7 @@
 	<Reaction probability="14"
 	input_cell1="glitteringLiquid"	input_cell2="[fire]"
 	output_cell1="air"				output_cell2="air"
-	entity="mods/Hydroxide/files/entities/misc/FireworkShot.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/glitteringLiquid/FireworkShot.xml"
 	>
 	</Reaction>
 	
@@ -833,7 +833,7 @@
 	<Reaction probability="1"
 	input_cell1="sparkLiquid"	input_cell2="air"
 	output_cell1="smoke"			output_cell2="air"
-	entity="mods/Hydroxide/files/entities/misc/SparkShot.xml" 
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/sparklingLiquid/SparkShot.xml" 
 	>
 	</Reaction>
 	
@@ -858,7 +858,7 @@
 	<Reaction probability="31"
 	input_cell1="sliceLiquid"	input_cell2="[fire]"
 	output_cell1="air"			output_cell2="air"
-	entity="mods/Hydroxide/files/Chemical Curiosities/materials/slicingLiquid/slicingLiquidShoot.xml" 
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/slicing_liquid/slicingLiquidShoot.xml" 
 	>
 	</Reaction>
 	
@@ -883,7 +883,7 @@
 	<Reaction probability="25"
 	input_cell1="blastPowder"	input_cell2="[fire]"
 	output_cell1="fire"			output_cell2="air"
-	entity="mods/Hydroxide/files/entities/misc/blastingPowder.lua"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/blastPowder/blastingPowder.lua"
 	>
 	</Reaction>
 	--------------------------------------------

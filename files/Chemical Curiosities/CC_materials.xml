@@ -15,7 +15,7 @@
 		liquid_stains="1"
         >
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/hydroxide.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/hydroxide/hydroxide.png"
 	>
 	</Graphics>
         <StatusEffects>
@@ -78,7 +78,7 @@
 	show_in_creative_mode="1"
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/devouringMoss.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/devouringMoss/devouringMoss.png"
 	>
 	</Graphics>
   </CellData> -- spreads over rock and ground aggressively. Very fun!
@@ -138,7 +138,7 @@
 	
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/veilium/veilium.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/potionBlindness/veilium.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -176,7 +176,7 @@
 	audio_materialaudio_type="MAGICAL" 
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/sparklingLiquid.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/sparklingLiquid/sparklingLiquid.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -215,7 +215,7 @@
 	audio_materialaudio_type="MAGICAL" 
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/slicingLiquid/slicingLiquid.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/slicing_liquid/slicingLiquid.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -249,7 +249,7 @@
 	audio_materialaudio_type="MAGICAL" 
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/glitteringLiquid.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/glitteringLiquid/glitteringLiquid.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -289,7 +289,7 @@
 	autoignition_temperature="10"
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/blast_powder.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/blastPowder/blast_powder.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -371,7 +371,7 @@
 	show_in_creative_mode="1"
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/Jitter.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/potionTwitchy/Jitter.png"
 	>
 	</Graphics>
 		<StatusEffects>
@@ -406,7 +406,7 @@
 	show_in_creative_mode="1"
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/kindling.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/fireStarter/kindling.png"
 	>
 	</Graphics>
 	<ExplosionConfig 
@@ -415,7 +415,7 @@
 		cell_explosion_damage_required="1"
 		cell_explosion_radius_min="4"
 		explosion_sprite=""
-		load_this_entity="mods/Hydroxide/files/entities/misc/fireStarter.xml"
+		load_this_entity="mods/Hydroxide/files/Chemical Curiosities/materials/fireStarter/fireStarter.xml"
 		ray_energy="0"
 		audio_enabled="0"
 		create_cell_probability="40"
@@ -570,7 +570,7 @@
 	show_in_creative_mode="1"
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/Metamorphine.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/metamorphine/Metamorphine.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -616,7 +616,7 @@
 	show_in_creative_mode="1"
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/unstableMetamorphine.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/metamorphine/unstableMetamorphine.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -676,7 +676,7 @@
 		>
 	</ExplosionConfig>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/Agitine.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/explodePlayer/Agitine.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -744,7 +744,7 @@
 	show_in_creative_mode="1" 
 	>
 	<Graphics
-	texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/metastasizium.png"
+	texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/potionTrailSpreading/metastasizium.png"
 	>
 	</Graphics>
 	<StatusEffects>
@@ -815,7 +815,7 @@
 		show_in_creative_mode="1"
 		>
 		<Graphics
-			texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/tinker.png"
+			texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/tinkerDust/tinker.png"
 			>
 		</Graphics>
 		<ParticleEffect
@@ -881,7 +881,7 @@
 		show_in_creative_mode="1"
 		>
 		<Graphics
-			texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/hearty.png"
+			texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/increaseMaxHP/hearty.png"
 			>
 		</Graphics>
 		<StatusEffects>
@@ -916,7 +916,7 @@
 			cell_explosion_damage_required="1"
 			cell_explosion_radius_min="4"
 			explosion_sprite=""
-			load_this_entity="mods/Hydroxide/files/entities/misc/greaseFire.xml"
+			load_this_entity="mods/Hydroxide/files/Chemical Curiosities/materials/grease/greaseFire.xml"
 			ray_energy="0"
 			audio_enabled="0"
 			create_cell_probability="40"
@@ -982,7 +982,7 @@
 			cell_explosion_damage_required="1"
 			cell_explosion_radius_min="2"
 			explosion_sprite="data/particles/explosion_012.xml"
-			load_this_entity="mods/Hydroxide/files/entities/misc/crystalExplode.xml"
+			load_this_entity="mods/Hydroxide/files/Chemical Cursiosities/materials/Crystal/crystalExplode.xml"
 			ray_energy="10"
         >
 		</ExplosionConfig>
@@ -1450,7 +1450,7 @@
 			cell_explosion_damage_required="1"
 			cell_explosion_radius_min="2"
 			explosion_sprite="data/particles/explosion_012.xml"
-			load_this_entity="mods/Hydroxide/files/entities/misc/crystalExplode.xml"
+			load_this_entity="mods/Hydroxide/files/Chemical Cursiosities/materials/Crystal/crystalExplode.xml"
 			ray_energy="10"
         >
 		</ExplosionConfig>

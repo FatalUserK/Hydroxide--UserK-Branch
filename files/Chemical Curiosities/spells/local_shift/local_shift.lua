@@ -1,7 +1,7 @@
 dofile_once("data/scripts/lib/utilities.lua")
 dofile_once("mods/Hydroxide/lib/Squirreltilities.lua")
 
-dofile_once("data/scripts/magic/fungal_shift.lua")
+dofile_once("data/scripts/Chemical Curiosities/spells/local_shift/fungal_shift.lua")
 
 materials_from = {}
 
