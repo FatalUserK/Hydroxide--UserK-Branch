@@ -860,7 +860,7 @@
 		on_fire_flame_material="fire_blue"
 		>
 		<Graphics
-			texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/gfx/thunder_powder.png"
+			texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/lightningPowder/thunder_powder.png"
 			>
 		</Graphics>
 	</CellDataChild>
