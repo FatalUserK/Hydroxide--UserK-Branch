@@ -25,7 +25,7 @@ table.insert(status_effects, {
 	id="BLINDNESS",
 	ui_name="Blinded",
 	ui_description="Your eyes don't seem to be helping much.",
-	ui_icon="mods/Hydroxide/files/Chemical Curiosities/materials/potionBlindness/effect_blindness.png",
+	ui_icon="data/ui_gfx/status_indicators/blindness.png",
 	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/potionBlindness/effect_blindness.xml",
 	protects_from_fire=false,
  	is_harmful=true,
@@ -53,8 +53,8 @@ table.insert(status_effects, {
 	id="LEVITATION_SLOWER",
 	ui_name="Heavy",
 	ui_description="It feels as if your bones are made of lead",
-	ui_icon="mods/Hydroxide/files/gfx/ui/levitation_slow.png",
-	effect_entity="mods/Hydroxide/files/entities/misc/effect_slower_levitation.xml",
+	ui_icon="mods/Hydroxide/files/Chemical Curiosities/materials/potionSlowness/effect_levitation_slow.png",
+	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/potionSlowness/effect_slower_levitation.xml",
 	is_harmful=true,
 });
 
@@ -63,16 +63,16 @@ table.insert(status_effects, {
 	ui_name="Combusting",
 	ui_description="BOOM!!!",
 	ui_icon="data/ui_gfx/status_indicators/explosive_shots.png",
-	effect_entity="mods/Hydroxide/files/entities/misc/effect_explosion.xml",
+	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/explodePlayer/effect_explosion.xml",
 	is_harmful=true,
-});
+}); -- I know this is used by other materials, but it fits best here, and it's what I assume the effect was originally intended for -UserK
 
 table.insert(status_effects, {
 	id="METASTASIZIUM",
 	ui_name="Infected",
 	ui_description="It wants to spread",
 	ui_icon="data/ui_gfx/status_indicators/trail_acid.png",
-	effect_entity="mods/Hydroxide/files/entities/misc/effect_trail_metastasizium.xml",
+	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/metastasizium/effect_trail_metastasizium.xml",
 	is_harmful=true,
 });
 
@@ -80,8 +80,8 @@ table.insert(status_effects, {
 	id="NULLIUM",
 	ui_name="Nullified",
 	ui_description="Your mana is being drained.",
-	ui_icon="mods/Hydroxide/files/gfx/ui/nullified.png",
-	effect_entity="mods/Hydroxide/files/entities/misc/effect_nullification.xml",
+	ui_icon="mods/Hydroxide/files/Chemical Curiosities/materials/magic_liquid_antimagic/effect_nullified.png",
+	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/magic_liquid_antimagic/effect_nullification.xml",
 	is_harmful=true,
 });
 
@@ -98,7 +98,7 @@ table.insert(status_effects, {
 	id="INCREASEHP",
 	ui_name="Health Generation",
 	ui_description="Your maximum health is slowly increasing.",
-	ui_icon="mods/Hydroxide/files/gfx/ui/increasehp.png",
+	ui_icon="mods/Hydroxide/files/Chemical Curiosities/materials/increaseMaxHP/effect_increasehp.png",
 	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/increaseMaxHP/effect_increasehp.xml",
 	is_harmful=false,
 });
@@ -107,7 +107,7 @@ table.insert(status_effects, {
 	id="MORPHINE",
 	ui_name="Painkillers",
 	ui_description="You feel unstoppable.",
-	ui_icon="mods/Hydroxide/files/gfx/ui/morphine.png",
+	ui_icon="mods/Hydroxide/files/Chemical Curiosities/materials/morphine/effect_morphine.png",
 	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/morphine/effect_morphine.xml",
 	is_harmful=true,
 });
@@ -130,29 +130,13 @@ table.insert(status_effects, {
 	is_harmful=true,
 });
 
-table.insert(status_effects, {
-	id="VOMIT_SPELLS",
-	ui_name="Food Poisoning",
-	ui_description="This was a terrible snack",
-	ui_icon="data/ui_gfx/status_indicators/food_poisoning.png",
-	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/pandorium/pandoriumvomit.xml",
-	is_harmful=true,
-});
 
-table.insert(status_effects, {
-	id="VOMIT_SPELLS_UNSTABLE",
-	ui_name="Food Poisoning",
-	ui_description="This was a terrible meal",
-	ui_icon="data/ui_gfx/status_indicators/food_poisoning.png",
-	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/pandorium/unstablepandoriumvomit.xml",
-	is_harmful=true,
-});
 
 table.insert(status_effects, {
 	id="IRONSKIN",
 	ui_name="Resistance",
 	ui_description="You recieve less damage",
-	ui_icon="mods/Hydroxide/files/gfx/ui/ironskin.png",
-	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/iron/ironskin.xml",
+	ui_icon="mods/Hydroxide/files/Chemical Curiosities/materials/metalStuff/effect_ironskin.png",
+	effect_entity="mods/Hydroxide/files/Chemical Curiosities/materials/metalStuff/effect_ironskin.xml",
 	is_harmful=false,
 });

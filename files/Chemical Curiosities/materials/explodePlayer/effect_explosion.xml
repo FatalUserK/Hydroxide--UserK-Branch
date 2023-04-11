@@ -11,7 +11,7 @@
 	</GameEffectComponent>
 	
 	<LuaComponent
-		script_source_file="mods/Hydroxide/files/scripts/misc/exploding.lua"
+		script_source_file="mods/Hydroxide/files/Chemical Curiosities/materials/explodePlayer/effect_exploding.lua"
 		execute_every_n_frame="120"
 		>
 	</LuaComponent>

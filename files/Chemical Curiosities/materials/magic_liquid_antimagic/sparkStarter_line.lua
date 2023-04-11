@@ -16,7 +16,7 @@ local vel_x = math.cos( angle ) * length
 local vel_y = 0 - math.sin( angle ) * length
 	
 
-shoot_projectile( entity_id, "mods/Hydroxide/files/entities/misc/fireLine.xml", pos_x, pos_y, vel_x, vel_y )
+shoot_projectile( entity_id, "mods/Hydroxide/files/Chemical Curiosities/materials/fireStarter/fireLine.xml", pos_x, pos_y, vel_x, vel_y ) --fuckk had no idea this also called fireLine.xml, might have to move it in the future -UserK
 
 
 EntityKill( entity_id )

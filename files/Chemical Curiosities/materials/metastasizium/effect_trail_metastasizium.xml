@@ -12,7 +12,7 @@
 
 
 	<LuaComponent
-		script_shot="mods/Hydroxide/files/scripts/misc/metastasizium_trail.lua"
+		script_shot="mods/Hydroxide/files/Chemical Curiosities/materials/metastasizium/metastasizium_trail.lua"
 		>
 	</LuaComponent>
 

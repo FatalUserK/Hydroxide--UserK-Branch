@@ -9,13 +9,13 @@
 	</GameEffectComponent>
 	
 	<LuaComponent
-		script_source_file="mods/Hydroxide/files/scripts/misc/effect_increasehp.lua"
+		script_source_file="mods/Hydroxide/files/Chemical Curiosities/materials/increaseMaxHP/effect_increasehp.lua"
 		execute_every_n_frame="10"
 		>
 	</LuaComponent>
 	
 	<SpriteParticleEmitterComponent
-        sprite_file="mods/Hydroxide/files/particles/max_hp.xml"
+        sprite_file="mods/Hydroxide/Chemical Curiosities/materials/increaseMaxHP/max_hp.xml"
         lifetime="0.75"
         randomize_lifetime.min="0.5"
         randomize_lifetime.max="1.0"

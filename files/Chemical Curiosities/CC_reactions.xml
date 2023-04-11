@@ -325,7 +325,7 @@
 	<Reaction probability="5"
 	input_cell1="crystal_box2d"		input_cell2="air"
 	output_cell1="crystal_box2d"	output_cell2="air"
-	entity="mods/Hydroxide/files/Chemical Curiosities/materials/Crystal/crystalExplode.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/volatileCrystal/crystalExplode.xml"
 	>
 	</Reaction>
 	
@@ -333,7 +333,7 @@
 	<Reaction probability="60"
 	input_cell1="solidCrystal"		input_cell2="[fire]"
 	output_cell1="air"				output_cell2="[fire]"
-	entity="mods/Hydroxide/files/Chemical Curiosities/materials/Crystal/crystalExplode.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/volatileCrystal/crystalExplode.xml"
 	entity="data/entities/particles/particle_explosion/main_swirly_pink.xml" 
 	>
 	</Reaction>
@@ -341,7 +341,7 @@
 	<Reaction probability="20"
 	input_cell1="solidCrystal"		input_cell2="smoke"
 	output_cell1="air"				output_cell2="smoke"
-	entity="mods/Hydroxide/files/Chemical Curiosities/materials/Crystal/crystalExplode.xml"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/volatileCrystal/crystalExplode.xml"
 	entity="data/entities/particles/particle_explosion/main_swirly_pink.xml" 
 	>
 	</Reaction>
@@ -883,7 +883,7 @@
 	<Reaction probability="25"
 	input_cell1="blastPowder"	input_cell2="[fire]"
 	output_cell1="fire"			output_cell2="air"
-	entity="mods/Hydroxide/files/Chemical Curiosities/materials/blastPowder/blastingPowder.lua"
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/blastPowder/blastingPowder.xml"
 	>
 	</Reaction>
 	--------------------------------------------
