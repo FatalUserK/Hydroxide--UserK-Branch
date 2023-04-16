@@ -7,7 +7,7 @@
       kill_entity_after_initialized="0" >
     </PhysicsBody2Component>
     <PhysicsImageShapeComponent
-      image_file="mods/Hydroxide/files/gfx/props/barrel_grease.png"
+      image_file="mods/Hydroxide/files/Chemical Curiosities/props/barrel_grease.png"
       material="metal_rust_barrel" >
     </PhysicsImageShapeComponent>
   </Base>

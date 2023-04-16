@@ -7,7 +7,7 @@
      		kill_entity_after_initialized="0" >
     	</PhysicsBody2Component>
 		<PhysicsImageShapeComponent
-			image_file="mods/Hydroxide/files/gfx/props/methane_tank.png"
+			image_file="mods/Hydroxide/files/Chemical Curiosities/props/methane_tank.png"
 			material="steel" >
 		</PhysicsImageShapeComponent>
 	</Base>

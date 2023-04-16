@@ -858,7 +858,7 @@
 	<Reaction probability="31"
 	input_cell1="sliceLiquid"	input_cell2="[fire]"
 	output_cell1="air"			output_cell2="air"
-	entity="mods/Hydroxide/files/Chemical Curiosities/materials/slicing_liquid/slicingLiquidShoot.xml" 
+	entity="mods/Hydroxide/files/Chemical Curiosities/materials/slicingLiquid/slicingLiquidShoot.xml" 
 	>
 	</Reaction>
 	

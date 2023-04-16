@@ -6,176 +6,10 @@
 
 
 
-  <CellData
-	name="AA_MAT_BLOOM"
-	ui_name="Bloomium"
-	tags="[plant],[static],[corrodible],[burnable],[meltable_to_lava],[alchemy],[bloom]"
-	burnable="1"
-	density="10"
-	cell_type="liquid"
-	wang_color="ff4ab182"
-	generates_smoke="0"
-	liquid_gravity="0.1"
-	liquid_sand="1"
-	liquid_static="1"
-	temperature_of_fire="90"
-	autoignition_temperature="85"
-	on_fire="0"
-	slippery="0"
-	solid_friction="0.05"
-	requires_oxygen="1"
-	gfx_glow="1"
-	hp="30" 
-	platform_type="1"
-	
-	>
-    <Graphics
-	texture_file="data/materials_gfx/root_growth.png"
-	color="ffCF1FC8" >
-    </Graphics>
-	
-  </CellData> --bloomium (floor?)
-	
-  <CellData
-	name="AA_MAT_BLOOM_ROOF"
-	ui_name="Bloomium"
-	tags="[static],[corrodible],[burnable],[meltable_to_lava],[alchemy],[bloom]"
-	burnable="1"
-	density="10"
-	cell_type="liquid"
-	wang_color="ff4ab183"
-	generates_smoke="0"
-	liquid_gravity="0"
-	liquid_sand="1" 
-	liquid_static="1"
-	temperature_of_fire="90"
-	autoignition_temperature="85"
-	on_fire="0"
-	slippery="0"
-	solid_friction="0.05"
-	requires_oxygen="1"
-	gfx_glow="1"
-	hp="30" 
-	platform_type="1"
-	>
-    <Graphics
-	texture_file="data/materials_gfx/root_growth.png"
-	is_grass="1"
-	color="ffCF1FC8" >
-    </Graphics>
-	
-  </CellData> --bloomium Ceiling
-  
-     <CellData
-	name="AA_MAT_BLOOM_ROOF_DEAD"
-	ui_name="Bloomium"
-	tags="[static],[corrodible],[burnable],[meltable_to_lava],[alchemy],[bloom]"
-	burnable="1"
-	density="10"
-	cell_type="liquid"
-	wang_color="ff4ab184"
-	generates_smoke="0"
-	liquid_gravity="0"
-	liquid_sand="1" 
-	liquid_static="1"
-	temperature_of_fire="90"
-	autoignition_temperature="85"
-	on_fire="0"
-	slippery="0"
-	solid_friction="0.05"
-	requires_oxygen="1"
-	gfx_glow="1"
-	hp="30" 
-	platform_type="1"
-	>
-    <Graphics
-	texture_file="data/materials_gfx/root_growth.png"
-	is_grass="1"
-	color="ffCF1FC8" >
-    </Graphics>
-	
-  </CellData> --bloomium ceiling (probably doesnt drip??)
-  
-  <CellData
-	name="AA_MAT_BLOOM_ROOF_PLANT"
-	ui_name="Bloomium"
-	tags="[static],[corrodible],[burnable],[meltable_to_lava],[alchemy],[bloom]"
-	burnable="1"
-	density="10"
-	cell_type="liquid"
-	wang_color="ff4ab185"
-	generates_smoke="0"
-	liquid_gravity="0"
-	liquid_sand="1" 
-	liquid_viscosity="101"
-	liquid_sticks_to_ceiling="100"
-  vegetation_full_lifetime_growth="700"
-	vegetation_sprite="mods/Hydroxide/files/gfx/vegetation/bloom_ceiling_$[1-7].xml" 
-	temperature_of_fire="90"
-	autoignition_temperature="85"
-	on_fire="0"
-	slippery="0"
-	solid_friction="0.05"
-	requires_oxygen="0"
-	gfx_glow="1"
-	hp="30" 
-	platform_type="0"
-	>
-    <Graphics
-	texture_file="data/materials_gfx/root_growth.png"
-	is_grass="1"
-	color="ffCF1FC8" >
-    </Graphics>
-	
-  </CellData> --i think this is the roots that hang from bloomium roofs
-  
-  <CellData
-	name="AA_MAT_BLOOM_LIQUID"
-	ui_name="Bloomium"
-	tags="[corrodible],[magic_liquid],[burnable],[meltable_to_lava],[alchemy]"
-	burnable="0"
-	density="1"
-	cell_type="liquid"
-	lifetime="120"
-	wang_color="804ab186"
-	generates_smoke="0"
-	liquid_gravity="0.8"
-	liquid_sand="0"
-	on_fire="0"
-	requires_oxygen="0"
-	liquid_stains="1"
-	>
-    <Graphics
-	is_grass="1"
-	color="336D693E" >
-    </Graphics>
-  </CellData> --bloomium drip
 
-	<CellData
-	name="AA_MAT_BLOOM_GAS"
-	ui_name="bloomium"
-  	tags="[gas]"
-	burnable="0"
-	density="1"
-	lifetime="300"
-	cell_type="gas"
-	wang_color="7f4ab188"
-	generates_smoke="0"
-	liquid_gravity="0.5"
-	liquid_sand="0"
-	on_fire="0"
-	requires_oxygen="0"
-	temperature_of_fire="60"
-	show_in_creative_mode="1"
-	>
-	 <Graphics
-	
-	color="55678828" >
-    </Graphics>
-  </CellData> --bloomium gas
   
   <CellData
-	name="AA_MAT_BLOOM_MAGIC"
+	name="AA_BLOOM_MAGIC"
 	ui_name="Bloomium"
 	tags="[corrodible],[burnable],[meltable_to_lava],[alchemy]"
 	burnable="0"
@@ -261,7 +95,7 @@
 	audio_materialaudio_type="LAVA" 
   >
     <Graphics
-      texture_file="mods/Hydroxide/files/gfx/materials_gfx/space.png"
+      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_DARKMATTER/space.png"
       color="FF000000" >
       <Edge>
         <EdgeGraphics 
@@ -309,7 +143,7 @@
     show_in_creative_mode="1"
     >
     <Graphics
-      texture_file="mods/Hydroxide/files/gfx/materials_gfx/zap.png"
+      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_STATIC_CHARGE/zap.png"
       color="FF00D0FF"
     >
     </Graphics>
@@ -397,7 +231,7 @@
     audio_physics_material_wall="slime"
     audio_physics_material_solid="slime" >
     <Graphics
-      texture_file="mods/Hydroxide/files/gfx/materials_gfx/hungry.png"
+      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HUNGRY_SLIME/hungry.png"
       color="FF7C5100"
     >
     </Graphics>
@@ -470,7 +304,7 @@
 	audio_materialaudio_type="LAVA"
 	>
     <Graphics
-      texture_file="mods/Hydroxide/files/gfx/materials_gfx/hungry2.png" 
+      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HUNGRY_SLIME/hungry2.png" 
       color="FF7C5100">
     </Graphics>
   </CellData> --Growing Slime
@@ -856,7 +690,7 @@
 	audio_materialaudio_type="MAGICAL" 
 	>
     <Graphics 
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/LOVE.png"
+		texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_LOVE/LOVE.png"
 		color="77FF38F1"
 		>
     </Graphics>
@@ -958,7 +792,7 @@
 	show_in_creative_mode="1"
 	>
      <Graphics
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/rice.png"
+		texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_PATH/rice.png"
 		color="ffb89e57" >
 		<Edge>
 			 <EdgeGraphics 
@@ -1010,7 +844,7 @@
 	show_in_creative_mode="1"
 	>
     <Graphics 
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/icefire.png"
+		texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_ICEFIRE/icefire.png"
 		color="607B00FF"
 		>
     </Graphics>
@@ -1196,7 +1030,7 @@
 	show_in_creative_mode="1"
 	>
     <Graphics 
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/gravity.png"
+		texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_GRAVLIQUID/gravity.png"
 		color="602D38FF"
 		>
     </Graphics>
@@ -1250,7 +1084,7 @@
 	show_in_creative_mode="1"
 	>
     <Graphics 
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/clone.png"
+		texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_CLONE/clone.png"
 		color="607F3300"
 		>
     </Graphics>
@@ -1305,7 +1139,7 @@
 	show_in_creative_mode="1"
 	>
     <Graphics 
-		texture_file="mods/Hydroxide/files/gfx/materials_gfx/glue.png"
+		texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_GLUE/glue.png"
 		color="60FEFFD1"
 		>
     </Graphics>

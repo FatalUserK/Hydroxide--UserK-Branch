@@ -48,7 +48,7 @@
   
   <VariableStorageComponent
 		name="projectile_file"
-		value_string="mods/Hydroxide/files/actions/uraniumball.xml"
+		value_string="mods/Hydroxide/files/Chemical Curiosities/spells/material_spells/uraniumball.xml"
 		>
 	</VariableStorageComponent>
 

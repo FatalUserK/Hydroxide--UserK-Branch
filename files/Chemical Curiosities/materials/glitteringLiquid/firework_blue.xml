@@ -41,7 +41,7 @@
       explosion_radius="15" 
       explosion_sprite=""
       explosion_sprite_lifetime="0"
-      load_this_entity="mods/Hydroxide/files/entities/fireworks/blueblast.xml"
+      load_this_entity="mods/Hydroxide/files/Chemical Curiosities/materials/glitteringLiquid/blueblast.xml"
       create_cell_probability="10" 
       cell_explosion_power_ragdoll_coeff="0.5"
       hole_destroy_liquid="0"

@@ -215,7 +215,7 @@
 	audio_materialaudio_type="MAGICAL" 
 	>
 	<Graphics
-		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/slicing_liquid/slicingLiquid.png"
+		texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/slicingLiquid/slicingLiquid.png"
 	>
 	</Graphics>
 	<ParticleEffect
@@ -1501,4 +1501,20 @@
 		</StatusEffects>
 	</CellData>
 	
+
+	<CellData
+		name="deezium"
+		ui_name="Deez..."
+		tags="[liquid]"
+		density="0.69"
+		cell_type="liquid"
+		wang_color="803A7BE4"
+		liquid_gravity="1.9"
+		>
+		<Graphics
+			texture_file="mods/Hydroxide/files/Chemical Curiosities/materials/deezium/deezium.png"
+			>
+		</Graphics>
+	</CellData> --this is a funny material but also ill probs use it for testing stuff -UserK
+
 </Materials>

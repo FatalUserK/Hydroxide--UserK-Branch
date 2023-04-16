@@ -31,28 +31,28 @@
 		output_cell1="AA_MAT_CREEPING_SLIME"		output_cell2="AA_MAT_CREEPING_SLIME" 	output_cell3="AA_MAT_CREEPING_SLIME"
 		blob_radius1="8"		blob_radius2="8" 	blob_radius3="8"
 		>
-	</Reaction>
+	</Reaction> --creeping slime absorbs [static] materials while in contact with air
 
 	<Reaction probability="200"
 		input_cell1="AA_MAT_CREEPING_SLIME" 		input_cell2="[solid]"		input_cell3="air"
 		output_cell1="AA_MAT_CREEPING_SLIME"		output_cell2="AA_MAT_CREEPING_SLIME" 		output_cell3="AA_MAT_CREEPING_SLIME"
 		blob_radius1="8"		blob_radius2="8" 	blob_radius3="8"
 		>
-	</Reaction>
+	</Reaction> --creeping slime absorbs [solid] materials while in contact with air
 
 	<Reaction probability="200"
 		input_cell1="AA_MAT_CREEPING_SLIME" 		input_cell2="[sand_ground]"		input_cell3="air"
 		output_cell1="AA_MAT_CREEPING_SLIME"		output_cell2="AA_MAT_CREEPING_SLIME" 	output_cell3="AA_MAT_CREEPING_SLIME"
 		blob_radius1="8"		blob_radius2="8" 	blob_radius3="8"
 		>
-	</Reaction>
+	</Reaction> --creeping slime absorbs [sand_ground] materials while in contact with air
 
 	<Reaction probability="200"
 		input_cell1="AA_MAT_CREEPING_SLIME" 		input_cell2="[sand_metal]"		input_cell3="air"
 		output_cell1="AA_MAT_CREEPING_SLIME"		output_cell2="AA_MAT_CREEPING_SLIME" 		output_cell3="AA_MAT_CREEPING_SLIME"
 		blob_radius1="8"		blob_radius2="8" 	blob_radius3="8"
 		>
-	</Reaction>
+	</Reaction> --creeping slime absorbs [sand_metal] materials while in contact with air
 
 	
 	<Reaction probability="200"
@@ -60,7 +60,7 @@
 		output_cell1="AA_MAT_CREEPING_SLIME"		output_cell2="AA_MAT_CREEPING_SLIME" 	output_cell3="AA_MAT_CREEPING_SLIME"
 		blob_radius1="8"		blob_radius2="8" 	blob_radius3="8"
 		>
-	</Reaction>
+	</Reaction> --creeping slime absorbs [sand_other] materials while in contact with air
 
 	
 	-----------
@@ -79,7 +79,7 @@
 			camera_shake="0" 
 			damage="0"
 			explosion_sprite=""
-			load_this_entity="mods/Hydroxide/files/entities/misc/grow_plant.xml" 
+			load_this_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_COMPOST/grow_plant.xml" 
 			spark_material="spark" 
 			sparks_count_max="0" 
 			sparks_count_min="0" 
@@ -108,7 +108,7 @@
 		cell_explosion_radius_max="1"
 		cell_explosion_probability="1.1"
 		explosion_sprite="data/particles/explosion_012.xml"
-		load_this_entity="mods/Hydroxide/files/entities/misc/random_spell_chaotic.xml" 
+		load_this_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_LIQUID_SPELL/random_spell_chaotic.xml" 
 		ray_energy="1"
 		>
 	</ExplosionConfig>
@@ -127,7 +127,7 @@
 		cell_explosion_radius_max="1"
 		cell_explosion_probability="1.1"
 		explosion_sprite="data/particles/explosion_012.xml"
-		load_this_entity="mods/Hydroxide/files/entities/misc/random_spell.xml" 
+		load_this_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_LIQUID_SPELL/random_spell.xml" 
 		ray_energy="1"
 		>
 	</ExplosionConfig>
@@ -334,139 +334,7 @@
   </Reaction>
 	
 	
-	-------------------------
-	--bloomium interactions--
-	-------------------------
-	
-	<Reaction probability="5"
-  	input_cell1="AA_MAT_BLOOM_LIQUID" 	input_cell2="air"
-  	output_cell1="AA_MAT_BLOOM_GAS"	output_cell2="air" 
-	>
-	</Reaction> -- bloomium juice evaporates
 
-	<Reaction probability="75"
-  	input_cell1="AA_MAT_BLOOM_LIQUID" 	input_cell2="[solid]"
-  	output_cell1="AA_MAT_BLOOM_LIQUID"	output_cell2="AA_MAT_BLOOM" 
-	blob_radius1="2"		blob_radius2="2"
-	>
-	</Reaction> -- bloom juice blooms solid
-	
-	<Reaction probability="75"
-  	input_cell1="AA_MAT_BLOOM_LIQUID" 	input_cell2="[static]"
-  	output_cell1="AA_MAT_BLOOM_LIQUID"	output_cell2="AA_MAT_BLOOM" 
-	blob_radius1="2"		blob_radius2="2"
-	>
-	</Reaction> --bloom juice blooms on static
-	
-	<Reaction probability="75"
-  	input_cell1="AA_MAT_BLOOM_GAS" 	input_cell2="[solid]"
-  	output_cell1="AA_MAT_BLOOM_GAS"	output_cell2="AA_MAT_BLOOM_ROOF" 
-	blob_radius1="2"		blob_radius2="2"
-	>
-	</Reaction> --bloom gas blooms on solid
-	
-	<Reaction probability="75"
-  	input_cell1="AA_MAT_BLOOM_GAS" 	input_cell2="[static]"
-  	output_cell1="AA_MAT_BLOOM_GAS"	output_cell2="AA_MAT_BLOOM_ROOF" 
-	blob_radius1="2"		blob_radius2="2"
-	>
-	</Reaction> --bloom gas blooms on statics
-	
-	<Reaction probability="15"
-  	input_cell1="AA_MAT_BLOOM" 	input_cell2="air" 
-  	output_cell1="AA_MAT_BLOOM"	output_cell2="AA_MAT_BLOOM_GAS" 
-	>
-    </Reaction> --bloom emits bloom gas
-	
-	<Reaction probability="85"
-	input_cell1="AA_MAT_BLOOM_GAS"	input_cell2="[bloom]"
-	output_cell1="air"				output_cell2="[bloom]"
-	>
-	</Reaction> -- bloom gas fades
-	
-	<Reaction probability="4"
-	input_cell1="AA_MAT_BLOOM_GAS"	input_cell2="air"
-	output_cell1="air"				output_cell2="air"
-	>
-	</Reaction> --bloom gas fades
-  
-	<Reaction probability="95"
-  	input_cell1="AA_MAT_BLOOM" 	input_cell2="air" 
-  	output_cell1="AA_MAT_BLOOM"	output_cell2="AA_MAT_BLOOM_LIQUID" 
-	>
-	</Reaction> -- bloom drips
-	
-	<Reaction probability="80"
-  	input_cell1="AA_MAT_BLOOM_ROOF" 	input_cell2="air" 
-  	output_cell1="AA_MAT_BLOOM_ROOF"	output_cell2="AA_MAT_BLOOM_LIQUID" 
-	>
-	</Reaction> -- bloom drips
-	
-	<Reaction probability="80"
-  	input_cell1="AA_MAT_BLOOM_ROOF_DEAD" 	input_cell2="air" 
-  	output_cell1="AA_MAT_BLOOM_ROOF_DEAD"	output_cell2="AA_MAT_BLOOM_LIQUID"  
-	>
-	</Reaction> -- dead bloom roof drips still
-	
-	<Reaction probability="10"
-  	input_cell1="AA_MAT_BLOOM_ROOF" 	input_cell2="[solid]" 
-  	output_cell1="AA_MAT_BLOOM_ROOF_PLANT" 	output_cell2="AA_MAT_BLOOM_ROOF_DEAD" 
-	blob_radius1="3"
-	>
-	</Reaction> -- bloom roof dies or somethin
-	
-   <Reaction probability="80"
-  	input_cell1="AA_MAT_BLOOM" 	input_cell2="fire" 
-  	output_cell1="poison"	output_cell2="fire" 
-	>
-	</Reaction> -- bloom burns to poison 
-	
-	<Reaction probability="100"
-  	input_cell1="AA_MAT_NEUTRAL_POTION" input_cell2="vomit" 
-  	output_cell1="AA_MAT_BLOOM_MAGIC"	output_cell2="AA_MAT_BLOOM_MAGIC"
-	blob_radius1="5"		blob_radius2="5"	
-	>
-	</Reaction> --bloom potion recipe. 
-	
-	<Reaction probability="75"
-  	input_cell1="AA_MAT_BLOOM_MAGIC" 	input_cell2="[solid]"
-  	output_cell1="AA_MAT_BLOOM_MAGIC"	output_cell2="AA_MAT_BLOOM" 
-	blob_radius1="2"		blob_radius2="2"
-	>
-	</Reaction> --bloom potion blooms solids
-	
-	<Reaction probability="75"
-  	input_cell1="AA_MAT_BLOOM_MAGIC" 	input_cell2="[static]"
-  	output_cell1="AA_MAT_BLOOM_MAGIC"	output_cell2="AA_MAT_BLOOM" 
-	blob_radius1="2"		blob_radius2="2"
-	>
-	</Reaction> --Bloom potion blooms statics
-	
-	<Reaction probability="100"
-  	input_cell1="AA_MAT_BLOOM_LIQUID" 	input_cell2="[liquid]"
-  	output_cell1="AA_MAT_BLOOM_GAS"	output_cell2="air" 
-	blob_radius1="2"		blob_radius2="2"
-	>
-    </Reaction> --bloom liquid kinda destroys other liquids
-	
-	<Reaction probability="50"
-  	input_cell1="AA_MAT_BLOOM_LIQUID" 	input_cell2="[sand_ground]"
-  	output_cell1="AA_MAT_BLOOM_GAS"	output_cell2="AA_MAT_BLOOM" 
-	>
-	</Reaction> --Blooms on [ground_sand]
-	
-	<Reaction probability="50"
-  	input_cell1="AA_MAT_BLOOM_GAS" 	input_cell2="[sand_ground]"
-  	output_cell1="AA_MAT_BLOOM_LIQUID"	output_cell2="AA_MAT_BLOOM_ROOF" 
-	>
-	</Reaction> --gas blooms roof on ground_sand 
-	
-	<Reaction probability="100"
-  	input_cell1="AA_MAT_BLOOM_LIQUID" 	input_cell2="[sand_other]"
-  	output_cell1="AA_MAT_BLOOM_GAS"	output_cell2="air" 
-	blob_radius1="2"		blob_radius2="2"
-	>
-	</Reaction> -- lots of powders are immune
 
 
 	-------------
@@ -486,7 +354,7 @@
 		cell_explosion_radius_max="1"
 		cell_explosion_probability="1.1"
 		explosion_sprite="data/particles/explosion_012.xml"
-		load_this_entity="mods/Hydroxide/files/entities/misc/physics_stone_01.xml" 
+		load_this_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_LIQUID_ROCK/physics_stone_01.xml" 
 		ray_energy="1"
 		>
 	</ExplosionConfig>
@@ -546,7 +414,7 @@
 	
 	<Reaction probability="3"
 	input_cell1="AA_MAT_NEUTRAL_POTION"				input_cell2="[bloom]"
-	output_cell1="AA_MAT_BLOOM_GAS"			output_cell2="AA_MAT_COMPOST"
+	output_cell1="AA_BLOOMIUM_GAS"			output_cell2="AA_MAT_COMPOST"
 	blob_radius1="5"
 	blob_restrict_to_input_material1="1"
 	>

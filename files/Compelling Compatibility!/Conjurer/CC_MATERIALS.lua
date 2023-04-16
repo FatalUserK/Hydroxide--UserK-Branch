@@ -1,8 +1,8 @@
 table.insert(ALL_MATERIALS, {
     name="Chemical Curiosities",
     desc="Materials added by Chemical Curiosities",
-    icon="mods/Hydroxide/files/Compelling Compatibility!/Conjurer/category_icon.png",
-    icon_off="mods/Hydroxide/files/Compelling Compatibility!/Conjurer/category_icon_off.png",  -- The greyed-out unselected variant
+    icon="mods/Hydroxide/files/Compelling Compatibility!/Conjurer/flasky.png",
+    icon_off="mods/Hydroxide/files/Compelling Compatibility!/Conjurer/flasky_off.png",  -- The greyed-out unselected variant
     materials={
       {
         image="mods/Hydroxide/files/Compelling Compatibility!/Conjurer/icons/hydroxide.png",  -- This should be a 16*16px icon

@@ -100,7 +100,7 @@
   
 	<VariableStorageComponent
 		name="projectile_file"
-		value_string="mods/Hydroxide/files/actions/grease_blast.xml"
+		value_string="mods/Hydroxide/files/Chemical Curiosities/spells/material_spells/grease_blast.xml"
 		>
 	</VariableStorageComponent>
 

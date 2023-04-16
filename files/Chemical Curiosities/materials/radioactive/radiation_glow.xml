@@ -21,7 +21,7 @@
 
 	
 	<LuaComponent
-		script_source_file="mods/Hydroxide/files/scripts/projectiles/flow.lua"
+		script_source_file="mods/Hydroxide/files/Chemical Curiosities/materials/radioactive/flow.lua"
 		execute_every_n_frame="2"
 		>
 	</LuaComponent>

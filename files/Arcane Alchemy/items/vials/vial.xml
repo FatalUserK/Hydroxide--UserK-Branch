@@ -18,7 +18,7 @@
   <PhysicsImageShapeComponent 
     body_id="1"
     centered="1"
-    image_file="mods/Hydroxide/files/gfx/misc/vial_normals.png"
+    image_file="mods/Hydroxide/files/Arcane Alchemy/items/vials/vial_normals.png"
     material="potion_glass_box2d"
   ></PhysicsImageShapeComponent>
   
@@ -43,7 +43,7 @@
     execute_on_added="1"
     remove_after_executed="1"
     call_init_function="1"
-    script_source_file="mods/Hydroxide/files/scripts/misc/populate_vial.lua" 
+    script_source_file="mods/Hydroxide/files/Arcane Alchemy/items/vials/populate_vial.lua" 
   ></LuaComponent>
   
 	<LuaComponent 
@@ -136,7 +136,7 @@
     _enabled="0"
     offset_x="3.5"
     offset_y="2"
-    image_file="mods/arcane_alchemy/files/gfx/misc/vial.png"
+    image_file="mods/arcane_alchemy/files/Arcane Alchemy/items/vials/vial.png"
   ></SpriteComponent>
 
   <ItemComponent
@@ -145,7 +145,7 @@
     max_child_items="0"
     is_pickable="1"
     is_equipable_forced="1"
-    ui_sprite="mods/arcane_alchemy/files/gfx/misc/vial_hand.png"
+    ui_sprite="mods/arcane_alchemy/files/Arcane Alchemy/items/vials/vial_hand.png"
     ui_description="$item_vial_with_material_description"
     preferred_inventory="QUICK"
   ></ItemComponent>
