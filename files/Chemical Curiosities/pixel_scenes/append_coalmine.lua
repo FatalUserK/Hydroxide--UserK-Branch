@@ -1,4 +1,4 @@
-btw if ModSettingGet("Hydroxide.cc_pixelscenes") == "on" then
+if ModSettingGet("Hydroxide.CC_pixelscenes") == true then
 table.insert(g_pixel_scene_01, {
 	prob			= 0.9,
 	material_file	= "mods/Hydroxide/files/Chemical Curiosities/pixel_scenes/coalmine/shrinekindling.png",

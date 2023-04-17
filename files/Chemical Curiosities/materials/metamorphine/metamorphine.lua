@@ -7,7 +7,7 @@ local convertcomponents = EntityGetComponent( entity_id, "MagicConvertMaterialCo
 
 SetRandomSeed( pos_x + 436, pos_y - 3252 )
 local material_options = { "water", "oil", "lava", "acid", "radioactive_liquid", "slime", "sand", "alcohol", "blood", "snow", "blood_worm", "blood_fungi", "burning_powder", "honey", "fungi",    "rice" }
-local material_options_rare = { "acid", "magic_liquid_teleportation", "magic_liquid_polymorph", "magic_liquid_random_polymorph", "magic_liquid_berserk", "magic_liquid_charm", "magic_liquid_invisibility", "diamond", "plasma_fading", "CC_potionBlindness", "methane", "sparkLiquid", "sliceLiquid", "glitteringLiquid", "blastPowder", "AA_MAT_ARBORIUM", "AA_LIQUID_ROCK", "AA_MAT_POTION_GAS", "fireStarter", "brass", "silver", "shock_powder" }
+local material_options_rare = { "acid", "magic_liquid_teleportation", "magic_liquid_polymorph", "magic_liquid_random_polymorph", "magic_liquid_berserk", "magic_liquid_charm", "magic_liquid_invisibility", "diamond", "plasma_fading", "CC_potionBlindness", "methane", "sparkLiquid", "sliceLiquid", "glitteringLiquid", "blastPowder", "AA_ARBORIUM", "AA_LIQUID_ROCK", "AA_POTION_GAS", "fireStarter", "brass", "silver", "shock_powder" }
 local rare = false
 
 local rnd = Random( 1, 100 )
@@ -30,10 +30,10 @@ material = CellFactory_GetType( material )
 
 if ( convertcomponents ~= nil ) then
 	for key,comp_id in pairs(convertcomponents) do 
-		local mat_name = tonumber( ComponentGetValue( comp_id, "from_material" ) )
+		local name = tonumber( ComponentGetValue( comp_id, "from_material" ) )
 		--local smoke_id = CellFactory_GetType( "smoke" )
 		
-		if (material == mat_name) then
+		if (material == name) then
 			--ComponentSetValue( comp_id, "to_material", smoke_id )
 		else
 			ComponentSetValue( comp_id, "to_material", material )

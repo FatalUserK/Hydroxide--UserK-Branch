@@ -4,14 +4,7 @@ table.insert(materials_standard, {
 });
 
 
---if(ModSettingGet(omega_glue) == "on") then
---	table.insert(materials_magic, {
---		material="AA_GLUE",
---		cost=500,
---		percentage=0.5
---});
 
---end --omega glue
 
 table.insert(materials_magic, {
     material="sliceLiquid",

@@ -6,14 +6,14 @@
 	>
 	</GameEffectComponent >	
 	<LuaComponent
-		script_source_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HUNGRY_SLIME/sinking.lua"
+		script_source_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_HUNGRY_SLIME/sinking.lua"
 		execute_on_added="1"
 		execute_every_n_frame="1"
 		>
 	</LuaComponent>
 
 	<LuaComponent
-		script_source_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HUNGRY_SLIME/damage_player_slime.lua"
+		script_source_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_HUNGRY_SLIME/damage_player_slime.lua"
 		execute_on_added="1"
 		execute_every_n_frame="200"
 		>

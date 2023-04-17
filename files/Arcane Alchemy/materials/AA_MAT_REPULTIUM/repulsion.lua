@@ -21,4 +21,4 @@ vel_y = Random( -1500, -3000)
 
 ComponentSetValueVector2(component, "mVelocity", vel_x, vel_y)
 
-EntityLoad("mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_REPULTIUM/particles_splash.xml",x,y)
+EntityLoad("mods/Hydroxide/files/Arcane Alchemy/materials/AA_REPULTIUM/particles_splash.xml",x,y)

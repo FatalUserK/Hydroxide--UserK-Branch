@@ -21,7 +21,7 @@
 		>
 		<count_per_material_type>
 			<Material material="AA_BLOOM_MAGIC" count="300"  />
-			<Material material="AA_MAT_COMPOST" count="150"  />
+			<Material material="AA_COMPOST" count="150"  />
 		</count_per_material_type>
 	</MaterialInventoryComponent>
 
@@ -59,7 +59,7 @@
 			explosion_sprite="data/particles/explosion_032.xml" 
 			explosion_sprite_lifetime="10" 
 			create_cell_probability="10"
-			create_cell_material="AA_MAT_BLOOM_MAGIC"
+			create_cell_material="AA_BLOOM_MAGIC"
 			hole_destroy_liquid="0" 
 			load_this_entity="data/entities/particles/particle_explosion/main_swirly_green.xml"
 			hole_enabled="1" 
@@ -97,7 +97,7 @@
 			explosion_sprite="" 
 			explosion_sprite_lifetime="" 
 			create_cell_probability="1"
-			create_cell_material="AA_MAT_COMPOST"
+			create_cell_material="AA_COMPOST"
 			hole_destroy_liquid="0" 
 			physics_throw_enabled="1"
 			sparks_count_min="15" 

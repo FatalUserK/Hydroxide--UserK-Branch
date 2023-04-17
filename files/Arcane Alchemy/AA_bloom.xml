@@ -1,6 +1,6 @@
 <Materials>
   <CellData
-	name="AA_MAT_BLOOM"
+	name="AA_BLOOM"
 	ui_name="Bloomium"
 	tags="[plant],[static],[corrodible],[burnable],[meltable_to_lava],[alchemy],[bloom]"
 	burnable="1"
@@ -29,7 +29,7 @@
   </CellData> --bloomium (floor?)
 	
   <CellData
-	name="AA_MAT_BLOOM_ROOF"
+	name="AA_BLOOM_ROOF"
 	ui_name="Bloomium"
 	tags="[static],[corrodible],[burnable],[meltable_to_lava],[alchemy],[bloom]"
 	burnable="1"
@@ -59,7 +59,7 @@
   </CellData> --bloomium Ceiling
   
      <CellData
-	name="AA_MAT_BLOOM_ROOF_DEAD"
+	name="AA_BLOOM_ROOF_DEAD"
 	ui_name="Bloomium"
 	tags="[static],[corrodible],[burnable],[meltable_to_lava],[alchemy],[bloom]"
 	burnable="1"
@@ -89,7 +89,7 @@
   </CellData> --bloomium ceiling (probably doesnt drip??)
   
   <CellData
-	name="AA_MAT_BLOOM_ROOF_PLANT"
+	name="AA_BLOOM_ROOF_PLANT"
 	ui_name="Bloomium"
 	tags="[static],[corrodible],[burnable],[meltable_to_lava],[alchemy],[bloom]"
 	burnable="1"

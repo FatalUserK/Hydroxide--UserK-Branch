@@ -363,9 +363,9 @@
 
 <MagicConvertMaterialComponent
       kill_when_finished="0"
-      from_material="AA_MAT_ARBORIUM"
+      from_material="AA_ARBORIUM"
       steps_per_frame="48"
-      to_material="AA_MAT_ARBORIUM"
+      to_material="AA_ARBORIUM"
       clean_stains="0"
       is_circle="1"
       radius="22" 
@@ -399,9 +399,9 @@
 
 <MagicConvertMaterialComponent
       kill_when_finished="0"
-      from_material="AA_MAT_NEUTRAL_POTION"
+      from_material="AA_NEUTRAL_POTION"
       steps_per_frame="48"
-      to_material="AA_MAT_NEUTRAL_POTION"
+      to_material="AA_NEUTRAL_POTION"
       clean_stains="0"
       is_circle="1"
       radius="22" 
@@ -520,9 +520,9 @@
 
 <MagicConvertMaterialComponent
       kill_when_finished="0"
-      from_material="AA_MAT_CREEPING_SLIME"
+      from_material="AA_CREEPING_SLIME"
       steps_per_frame="48"
-      to_material="AA_MAT_CREEPING_SLIME"
+      to_material="AA_CREEPING_SLIME"
       clean_stains="0"
       is_circle="1"
       radius="22" 
@@ -665,7 +665,7 @@
 
 <MagicConvertMaterialComponent
       kill_when_finished="0"
-      from_material="AA_MAT_HUNGRY_SLIME"
+      from_material="AA_HUNGRY_SLIME"
       steps_per_frame="48"
       to_material="water"
       clean_stains="0"
@@ -677,7 +677,7 @@
 
 <MagicConvertMaterialComponent
       kill_when_finished="0"
-      from_material="AA_MAT_HUNGRY_SLIME_GROWING"
+      from_material="AA_HUNGRY_SLIME_GROWING"
       steps_per_frame="48"
       to_material="water"
       clean_stains="0"

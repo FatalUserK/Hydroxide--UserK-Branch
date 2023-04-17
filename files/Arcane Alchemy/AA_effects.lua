@@ -2,18 +2,18 @@ table.insert(status_effects, {
 	id="AA_HIT_SELF",
 	ui_name="Angry Limb",
 	ui_description="Stop hitting yourself",
-	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HITSELF/effect_hit_self.png",
+	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_HITSELF/effect_hit_self.png",
 	protects_from_fire=false,
-	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HITSELF/hit_self.xml",
+	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_HITSELF/hit_self.xml",
 });
 
 table.insert(status_effects, {
 	id="AA_COLLAPSE",
 	ui_name="Collapsing",
 	ui_description="You are collapsing in on yourself",
-	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_DARKMATTER/effect_dark_matter.png",
+	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_DARKMATTER/effect_dark_matter.png",
 	protects_from_fire=false,
-	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_DARKMATTER/dark_matter.xml",
+	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_DARKMATTER/dark_matter.xml",
 	add_as_child=true
 });
 
@@ -21,7 +21,7 @@ table.insert(status_effects, {
 	id="AA_STATIC_CHARGE",
 	ui_name="Static charge",
 	ui_description="You are electrically charged",
-	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_STATIC_CHARGE/effect_charged.png",
+	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_STATIC_CHARGE/effect_charged.png",
 	protects_from_fire=false,
 	effect_entity="data/entities/misc/electricity.xml",
 });
@@ -30,20 +30,21 @@ table.insert(status_effects, {
 	id="AA_SINKING",
 	ui_name="Sinking",
 	ui_description="You are being grabbed",
-	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HUNGRY_SLIME/hunger.png",
+	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_HUNGRY_SLIME/hunger.png",
 	protects_from_fire=false,
-	effect_entity="mods/Hydroxide/files/entities/effects/sinking.xml",
+	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_HUNGRY_SLIME/sinking.xml",
 });
 
 table.insert(status_effects, {
 	id="AA_REPULSION",
 	ui_name="Repulsion",
 	ui_description="A mysterious force struggling to be rid of you",
-	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_REPULTIUM/repulsive.png",
+	ui_icon="mods/Hydroxide/files/Arcane Alchemy/materials/AA_REPULTIUM/repulsive.png",
 	protects_from_fire=false,
-	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_REPULTIUM/repulsion.xml",
+	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_REPULTIUM/repulsion.xml",
 });
 
+--[[
 table.insert(status_effects, {
 	id="AA_SHRINK",
 	ui_name="Shrunken",
@@ -52,6 +53,7 @@ table.insert(status_effects, {
 	protects_from_fire=false,
 	effect_entity="mods/Hydroxide/files/entities/effects/shrink.xml",
 });
+]]-- old AA effect, probably not worth fixing up but I'll leave it here for now -UserK
 
 table.insert(status_effects, {
 	id="AA_HUNGRY_VOMIT",
@@ -59,7 +61,7 @@ table.insert(status_effects, {
 	ui_description="You feel it crawling back up",
 	ui_icon="mods/Hydroxide/files/gfx/ui/crawl.png",
 	protects_from_fire=false,
-	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HUNGRY_SLIME/vomitslime.xml",
+	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_HUNGRY_SLIME/vomitslime.xml",
 });
 table.insert(status_effects, {
 	id="LOVE_POTION",
@@ -106,6 +108,7 @@ table.insert(status_effects, {
 	effect_entity="mods/Hydroxide/files/Arcane Alchemy/materials/AA_CLONE/cloned.xml",
 });
 
+--[[
 table.insert(status_effects, {
 	id="POLYMORPH2",
 	ui_name="polymorph test",
@@ -114,6 +117,7 @@ table.insert(status_effects, {
 	protects_from_fire=false,
 	effect_entity="mods/Hydroxide/files/entities/effects/polymorph_test.xml",
 });
+]]-- not sure what this was used for, possibly used to test cloning, might be worth reading into in the future tho -UserK
 
 --if(ModSettingGet(omega_glue) == "on") then
 --table.insert(status_effects, {

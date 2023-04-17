@@ -1,28 +1,28 @@
 
 
 table.insert(materials_magic, {
-    material="AA_MAT_DARKMATTER",
+    material="AA_DARKMATTER",
     cost=500,
 });
 
 table.insert(materials_magic, {
-    material="AA_MAT_HITSELF",
+    material="AA_HITSELF",
     cost=500,
 	percentage=0.5
 });
 
 table.insert(materials_magic, {
-    material="AA_MAT_ARBORIUM",
+    material="AA_ARBORIUM",
     cost=500,
 });
 
 table.insert(materials_magic, {
-    material="AA_MAT_HUNGRY_SLIME",
+    material="AA_HUNGRY_SLIME",
     cost=600,
 });
 
 table.insert(materials_magic, {
-    material="AA_MAT_REPULTIUM",
+    material="AA_REPULTIUM",
     cost=400,
 	percentage=0.5
 });
@@ -71,7 +71,7 @@ table.insert(materials_magic, {
 });
 
 table.insert(materials_magic, {
-    material="AA_MAT_STATIC_CHARGE",
+    material="AA_STATIC_CHARGE",
     cost=300,
 });
 

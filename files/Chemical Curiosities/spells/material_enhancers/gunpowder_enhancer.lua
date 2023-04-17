@@ -31,14 +31,14 @@ local sulphur = CellFactory_GetType( "sulphur" )
 
 if ( convertcomponents ~= nil ) then
 	for key,comp_id in pairs(convertcomponents) do 
-		local mat_name = tonumber( ComponentGetValue( comp_id, "from_material" ) )
+		local name = tonumber( ComponentGetValue( comp_id, "from_material" ) )
 		--local smoke_id = CellFactory_GetType( "smoke" 
 		
 		
 		local to = tonumber( ComponentGetValue( comp_id, "to_material" ) )
 		if to ~= sulphur then
 			
-			if (material == mat_name) then
+			if (material == name) then
 				--ComponentSetValue( comp_id, "to_material", smoke_id )
 			else
 				ComponentSetValue( comp_id, "to_material", material )

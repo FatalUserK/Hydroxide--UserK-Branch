@@ -38,7 +38,7 @@
    </CellData>  -- magic liquid specifically for creating a bloomery 
 	
    <CellData
-    name="AA_MAT_HITSELF"
+    name="AA_HITSELF"
     ui_name="Stop Hitting Yourself"
     tags="[liquid],[magic_liquid],[corrodible],[freezable],[water],[impure]"
     burnable="0"
@@ -71,7 +71,7 @@
   </CellData>  -- Why are you hitting yourself? 
   
     <CellData
-    name="AA_MAT_DARKMATTER"
+    name="AA_DARKMATTER"
     ui_name="Dark Matter"
     tags="[liquid],[magic_liquid],[corrodible],[freezable],[water]"
     burnable="0"
@@ -95,7 +95,7 @@
 	audio_materialaudio_type="LAVA" 
   >
     <Graphics
-      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_DARKMATTER/space.png"
+      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_DARKMATTER/space.png"
       color="FF000000" >
       <Edge>
         <EdgeGraphics 
@@ -120,7 +120,7 @@
   </CellData> -- COLLAPSE
   
   <CellData
-    name="AA_MAT_STATIC_CHARGE"
+    name="AA_STATIC_CHARGE"
     ui_name="Static Charge"
       tags="[liquid],[magic_liquid],[corrodible],[freezable],[water]"
     burnable="0"
@@ -143,7 +143,7 @@
     show_in_creative_mode="1"
     >
     <Graphics
-      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_STATIC_CHARGE/zap.png"
+      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_STATIC_CHARGE/zap.png"
       color="FF00D0FF"
     >
     </Graphics>
@@ -168,7 +168,7 @@
 
   
   <CellData 
-    name="AA_MAT_REPULTIUM"
+    name="AA_REPULTIUM"
     ui_name="Repultium"
     tags="[corrodible],[magic_liquid],[meltable_to_lava],[alchemy],[liquid]"
     burnable="0"  
@@ -204,7 +204,7 @@
   </CellData> --Things bounce off this.
   
   <CellData 
-    name="AA_MAT_HUNGRY_SLIME"
+    name="AA_HUNGRY_SLIME"
     ui_name="Hungry slime"
     tags="[corrodible],[magic_liquid],[meltable_to_lava],[alchemy],[liquid],[hungry_slime]"
     burnable="0"  
@@ -231,7 +231,7 @@
     audio_physics_material_wall="slime"
     audio_physics_material_solid="slime" >
     <Graphics
-      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HUNGRY_SLIME/hungry.png"
+      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_HUNGRY_SLIME/hungry.png"
       color="FF7C5100"
     >
     </Graphics>
@@ -243,7 +243,7 @@
   </CellData> --slowly growing slime of some kind. not sure how this goes
   
    <CellData 
-    name="AA_MAT_CREEPING_SLIME"
+    name="AA_CREEPING_SLIME"
     ui_name="Creeping Slime"
     tags="[corrodible],[magic_liquid],[meltable_to_lava],[alchemy],[liquid]"
     burnable="0"  
@@ -275,7 +275,7 @@
   </CellData> --this one spreads over ground, pretty aggressively
 
   <CellData 
-    name="AA_MAT_HUNGRY_SLIME_GROWING"
+    name="AA_HUNGRY_SLIME_GROWING"
     ui_name="Hungry slime"
     tags="[burnable],[corrodible],[magic_liquid],[meltable_to_lava],[alchemy],[liquid],[hungry_slime]"
     burnable="1"  
@@ -304,14 +304,14 @@
 	audio_materialaudio_type="LAVA"
 	>
     <Graphics
-      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_MAT_HUNGRY_SLIME/hungry2.png" 
+      texture_file="mods/Hydroxide/files/Arcane Alchemy/materials/AA_HUNGRY_SLIME/hungry2.png" 
       color="FF7C5100">
     </Graphics>
   </CellData> --Growing Slime
 
   
     <CellData
-	name="AA_MAT_ASH"
+	name="AA_ASH"
 	ui_name="Ash"
   	tags="[sand_ground],[corrodible],[meltable_to_lava],[alchemy]"
 	burnable="0"
@@ -337,7 +337,7 @@
   </CellData> --ASH
   
   <CellData
-	name="AA_MAT_SOOT"
+	name="AA_SOOT"
 	ui_name="Soot"
   	tags="[gas]"
 	burnable="0"
@@ -359,7 +359,7 @@
 
    
   <CellData
-	name="AA_MAT_POTION_GAS"
+	name="AA_POTION_GAS"
 	ui_name="Potion gas"
   	tags="[gas]"
 	burnable="0"
@@ -384,7 +384,7 @@
 
   
   <CellData
-	name="AA_MAT_SOLID_SLIME"
+	name="AA_SOLID_SLIME"
 	ui_name="solidified slime"
 	tags="[static],[corrodible],[alchemy],[solid]"
 	burnable="0"
@@ -410,7 +410,7 @@
   </CellData> --Solidified slime. unsure the use case but its neat
 	
  <CellData
-	name="AA_MAT_NEUTRAL_POTION"
+	name="AA_NEUTRAL_POTION"
 	ui_name="Base potion"
   	tags="[liquid],[magic_liquid],[water],[impure],"
 	burnable="0"
@@ -451,7 +451,7 @@
   </CellData> --Neutral potion, used in reactions probably
   
   <CellData
-	name="AA_MAT_ARBORIUM"
+	name="AA_ARBORIUM"
 	ui_name="Arborium"
   	tags="[liquid],[water],[impure],[magic_liquid]"
 	burnable="0"
@@ -491,7 +491,7 @@
   </CellData> 
 
 	 <CellData
-	name="AA_MAT_CATALYST"
+	name="AA_CATALYST"
 	ui_name="Catalyst"
   	tags="[liquid],[magic_liquid],[water],[impure]"
 	density="1.5"
@@ -519,8 +519,8 @@
   </CellData> --Catalyst
   
    <CellData
-	name="AA_MAT_OIL_SPLITTING"
-	ui_name="$mat_oil"
+	name="AA_OIL_SPLITTING"
+	ui_name="$oil"
   	tags="[liquid],[magic_liquid],[burnable],[impure]"
 	burnable="1"
 	density="1"
@@ -556,7 +556,7 @@
 
   
     <CellData
-	name="AA_MAT_OIL_LIGHT"
+	name="AA_OIL_LIGHT"
 	ui_name="Light oil"
   	tags="[liquid],[burnable],[impure]"
 	burnable="1"
@@ -593,7 +593,7 @@
 
   
     <CellData
-	name="AA_MAT_OIL_HEAVY"
+	name="AA_OIL_HEAVY"
 	ui_name="Heavy oil"
   	tags="[liquid],[burnable],[impure]"
 	burnable="1"
@@ -629,7 +629,7 @@
   </CellData> --HEAVY OIL
 
    <CellData 
-	name="AA_MAT_MAGICPLASTIC"
+	name="AA_MAGICPLASTIC"
 	ui_name="Magical plastic"
   	tags="[corrodible],[magic_liquid],[meltable_to_lava],[alchemy],[slime]"
 	burnable="0"  
@@ -1111,8 +1111,8 @@
   </CellData> --Cloning Solution
 
  
-
-    <CellData 
+--[[ ]] 
+    <!-- <CellData 
 	name="AA_GLUE"
 	ui_name="Omega glue"
   	tags="[corrodible],[meltable_to_lava],[alchemy],[magic_liquid],[impure]"
@@ -1148,13 +1148,13 @@
 			<StatusEffect type="GLUED" amount="0.15" />
 			</Ingestion>
     </StatusEffects>
-  </CellData> --Omega Glue
+  </CellData> --> --Omega Glue 
   --TODO fix
 	--POssibly using a hitbox to detect which enemies to add anchors to
-  -->
+
   
   <CellData
-	name="AA_MAT_COMPOST"
+	name="AA_COMPOST"
 	ui_name="Compost"
   	tags="[corrodible],[meltable_to_lava],[alchemy],[magic_liquid]"
 	burnable="0"
