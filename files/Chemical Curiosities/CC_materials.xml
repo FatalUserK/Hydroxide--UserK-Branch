@@ -273,7 +273,7 @@
 	
   <CellData
 	name="blastPowder"
-	ui_name="blasting Powder"
+	ui_name="Blasting Powder"
 	tags="[sand_ground],[burnable],[corrodible],[alchemy]"
 	burnable="1"
 	density="7.15"
@@ -728,7 +728,7 @@
 	 
 	<CellData
 	name="liquid_projectile_trail"
-	ui_name="metastasizium"
+	ui_name="Metastasizium"
 	tags="[liquid],[magic_liquid],[impure],[corrodible]"
 	density="1.9"
 	cell_type="liquid"

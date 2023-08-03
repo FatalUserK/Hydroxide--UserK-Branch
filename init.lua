@@ -74,19 +74,16 @@ if ModSettingGet("Hydroxide.CC_MATERIALS") == true then
 	
 	ModLuaFileAppend( "data/scripts/magic/fungal_shift.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_fungal.lua" ) --FUngal shifts
 
+	ModLuaFileAppend( "data/scripts/items/potion.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_potion.lua" ) -- potions with new materials
+	ModLuaFileAppend( "data/scripts/items/powder_stash.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_append_powders.lua" ) -- powder bags spawn with new materials
+	ModLuaFileAppend( "data/scripts/items/potion_aggressive.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_append_potion_aggressive.lua" ) --for alchemist enemy
+	ModLuaFileAppend("data/scripts/items/potion_starting.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_append_potion_starting.lua") --starting potions
+
 	function OnPlayerSpawned( player_entity ) -- This runs when player entity has been created
 		EntitySetDamageFromMaterial( player_entity, "hydroxide", 0.005 )
 	end
 end
 
---	Flasks
-
-if ModSettingGet("Hydroxide.CC_FLASKS") == true then
-	ModLuaFileAppend( "data/scripts/items/potion.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_potion.lua" ) -- potions with new materials
-	ModLuaFileAppend( "data/scripts/items/powder_stash.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_append_powders.lua" ) -- powder bags spawn with new materials
-	ModLuaFileAppend( "data/scripts/items/potion_aggressive.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_append_potion_aggressive.lua" ) --for alchemist enemy
-	ModLuaFileAppend("data/scripts/items/potion_starting.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_append_potion_starting.lua")
-end
 
 --  Items
 
@@ -114,9 +111,7 @@ end
 
 --	Spells
 
-if ModSettingGet("Hydroxide.CC_SPELLS") == true then
-	ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_spells.lua" )
-end
+ModLuaFileAppend( "data/scripts/gun/gun_actions.lua", "mods/Hydroxide/files/Chemical Curiosities/CC_spells.lua" )
 
 
 
@@ -146,10 +141,12 @@ end
 
 --- Bloomium (disabled for now)
 
+ModMaterialsFileAdd( "mods/Hydroxide/files/Arcane Alchemy/materials/BLOOMIUM/bloom_materials.xml" ) 
+ModMaterialsFileAdd( "mods/Hydroxide/files/Arcane Alchemy/materials/BLOOMIUM/bloom_reactions.xml" ) 
 
 if ModSettingGet("Hydroxide.AA_bloomium") == true then
 
-	ModMaterialsFileAdd( "mods/Hydroxide/files/Arcane Alchemy/materials/BLOOM_OLD.xml")
+	--ModMaterialsFileAdd( "mods/Hydroxide/files/Arcane Alchemy/materials/BLOOM_OLD.xml")
 	--[[
 	ModMaterialsFileAdd( "mods/Hydroxide/files/Arcane Alchemy/materials/BLOOMIUM/bloom_materials.xml" ) 
 	ModMaterialsFileAdd( "mods/Hydroxide/files/Arcane Alchemy/materials/BLOOMIUM/bloom_reactions.xml" ) 

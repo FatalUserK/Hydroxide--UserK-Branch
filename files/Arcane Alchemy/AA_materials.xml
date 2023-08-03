@@ -170,7 +170,7 @@
   <CellData 
     name="AA_REPULTIUM"
     ui_name="Repultium"
-    tags="[corrodible],[magic_liquid],[meltable_to_lava],[alchemy],[liquid]"
+    tags="[corrodible],[slimy],[meltable_to_lava],[alchemy],[liquid]"
     burnable="0"  
     density="5"  
     cell_type="liquid" 
@@ -205,8 +205,8 @@
   
   <CellData 
     name="AA_HUNGRY_SLIME"
-    ui_name="Hungry slime"
-    tags="[corrodible],[magic_liquid],[meltable_to_lava],[alchemy],[liquid],[hungry_slime]"
+    ui_name="Hungry Slime"
+    tags="[corrodible],[slimy],[meltable_to_lava],[alchemy],[liquid],[hungry_slime]"
     burnable="0"  
     density="5"  
     cell_type="liquid" 
@@ -276,8 +276,8 @@
 
   <CellData 
     name="AA_HUNGRY_SLIME_GROWING"
-    ui_name="Hungry slime"
-    tags="[burnable],[corrodible],[magic_liquid],[meltable_to_lava],[alchemy],[liquid],[hungry_slime]"
+    ui_name="Hungry Slime"
+    tags="[burnable],[corrodible],[slimy],[meltable_to_lava],[alchemy],[liquid],[hungry_slime]"
     burnable="1"  
     density="4"  
     cell_type="liquid" 
@@ -557,7 +557,7 @@
   
     <CellData
 	name="AA_OIL_LIGHT"
-	ui_name="Light oil"
+	ui_name="Light Oil"
   	tags="[liquid],[burnable],[impure]"
 	burnable="1"
 	density="0.1"
@@ -594,7 +594,7 @@
   
     <CellData
 	name="AA_OIL_HEAVY"
-	ui_name="Heavy oil"
+	ui_name="Heavy Oil"
   	tags="[liquid],[burnable],[impure]"
 	burnable="1"
 	density="2"
@@ -719,7 +719,7 @@
   
   <CellData 
 	name="AA_PATH"
-	ui_name="a meager offering"
+	ui_name="A Meagre Offering"
   	tags="[corrodible],[magic_liquid],[meltable_to_lava],[alchemy],[magic_liquid],[impure]"
 	burnable="0"  
 	density="5"  
@@ -1006,7 +1006,7 @@
 
     <CellData 
 	name="AA_GRAVLIQUID"
-	ui_name="Condensed gravity"
+	ui_name="Condensed Gravity"
   	tags="[corrodible],[meltable_to_lava],[alchemy],[magic_liquid],[impure]"
 	burnable="0"  
 	density="5"  
@@ -1058,7 +1058,7 @@
   
   <CellData 
 	name="AA_CLONE"
-	ui_name="Cloning solution"
+	ui_name="Cloning Solution"
   	tags="[corrodible],[meltable_to_lava],[alchemy],[magic_liquid],[impure]"
 	burnable="0"  
 	density="0.01"  

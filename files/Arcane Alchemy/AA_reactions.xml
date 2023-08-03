@@ -5,6 +5,16 @@
 	
 
 	
+	-----------------------
+	--Universal Reactions--
+	-----------------------
+
+	<Reaction probability="10"
+	input_cell1="water" 	input_cell2="[slimy]"
+	output_cell1="water"	output_cell2="cloud_slime"
+	>
+	</Reaction>
+
 
 
 	
@@ -14,7 +24,7 @@
 	
 	<Reaction probability="63"
 	input_cell1="AA_NEUTRAL_POTION" input_cell2="blood_cold"
-	output_cell1="AA_ICEFIRE"			output_cell2="blood_cold_vapour"
+	output_cell1="AA_ICEFIRE"		output_cell2="blood_cold_vapour"
 	>
 	</Reaction>
 	
@@ -27,9 +37,9 @@
 	--creeping slime--
 	------------------
 	<Reaction probability="200"
-		input_cell1="AA_CREEPING_SLIME" 		input_cell2="[static]"		input_cell3="air"
-		output_cell1="AA_CREEPING_SLIME"		output_cell2="AA_CREEPING_SLIME" 	output_cell3="AA_CREEPING_SLIME"
-		blob_radius1="8"		blob_radius2="8" 	blob_radius3="8"
+		input_cell1="AA_CREEPING_SLIME" 	input_cell2="[static]"				input_cell3="air"
+		output_cell1="AA_CREEPING_SLIME"	output_cell2="AA_CREEPING_SLIME" 	output_cell3="AA_CREEPING_SLIME"
+		blob_radius1="8"					blob_radius2="8" 					blob_radius3="8"
 		>
 	</Reaction> --creeping slime absorbs [static] materials while in contact with air
 

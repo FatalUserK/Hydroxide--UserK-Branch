@@ -34,20 +34,20 @@ mod_settings =
 	{
 		id = "mod_title",
 		ui_name = "Squirrelly's Chemical Curiosities",
-		ui_description = "A sequel/remastering of Evaisa's Arcane Alchemy!"
+		ui_description = "A sequel/remastering of Evaisa's Arcane Alchemy!",
 		not_setting = true,
 	},
 	{
 		id = "warning",
 		ui_name = "WARNING! SETTINGS MAY BE UNSTABLE",
-		ui_description = "a few settings may be somewhat unstable when changed from default. Disabling bloomium should be fine, but I have not finished the others yet -UserK"
+		ui_description = "a few settings may be somewhat unstable when changed from default. Disabling bloomium should be fine, but I have not finished the others yet -UserK",
 		not_setting = true,
 	},
 	{
 		category_id = "CC_SETTINGS",
 		ui_name = "Chemical Curiosities",
 		ui_description = "Settings and Options for configuring Chemical Curiosities content",
-		foldable = true
+		foldable = true,
 		_folded = true,
 		settings = {
 
@@ -107,7 +107,7 @@ mod_settings =
 		category_id = "AA_SETTINGS",
 		ui_name = "Arcane Alchemy",
 		ui_description = "Settings and Options for configuring Chemical Curiosities content",
-		foldable = true
+		foldable = true,
 		_folded = true,
 		settings = {
 			{
@@ -149,7 +149,7 @@ mod_settings =
 				id = "AA_BLOOMIUM_IS_ENABLED",
 				ui_name = "Bloomium",
 				value_default = true,
-				ui_description = "Yes, you can now disable Bloomium"
+				ui_description = "Yes, you can now disable Bloomium",
 				scope = MOD_SETTING_SCOPE_NEW_GAME,
 			}
 		}
